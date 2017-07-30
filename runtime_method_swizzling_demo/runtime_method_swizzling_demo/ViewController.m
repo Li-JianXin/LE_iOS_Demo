@@ -24,7 +24,6 @@
     NSLog(@"touchesBegan");
     
     int x = arc4random() % 11;
-    x = 1;
     UIImage *image1 = [UIImage imageNamed:[@"image" stringByAppendingString:[NSString stringWithFormat:@"%d",x]]];
     CGSize image1Size = image1.size;
     CGRect imageView1Frame = self.imageView1.frame;
