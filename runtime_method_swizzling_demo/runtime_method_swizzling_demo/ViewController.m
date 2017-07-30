@@ -10,22 +10,38 @@
 #import "UIImage+NamePrefix.h"
 
 @interface ViewController ()
-
+@property (nonatomic, strong) UIImageView *imageView1;
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     NSLog(@"touchesBegan");
     
-    UIImage *image1 = [UIImage imageNamed:@"image1"];
-    UIImageView *imageView1 = [[UIImageView alloc] initWithImage:image1];
-    imageView1.center = self.view.center;
-    [self.view addSubview:imageView1];
+    int x = arc4random() % 11;
+    x = 1;
+    UIImage *image1 = [UIImage imageNamed:[@"image" stringByAppendingString:[NSString stringWithFormat:@"%d",x]]];
+    CGSize image1Size = image1.size;
+    CGRect imageView1Frame = self.imageView1.frame;
+    imageView1Frame.size = image1Size;
+    self.imageView1.image = image1;
+    self.imageView1.frame = imageView1Frame;
+    self.imageView1.center = self.view.center;
+    if (!self.imageView1.superview) {
+        [self.view addSubview:self.imageView1];
+    }
+}
+
+- (UIImageView *)imageView1 {
+    if (!_imageView1) {
+        _imageView1 = [UIImageView new];
+    }
+    return _imageView1;
 }
 
 @end
