@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9B213EAC1F2E1F7200EB3F96 /* coverFloawView_scrollView_demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = coverFloawView_scrollView_demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B213EAC1F2E1F7200EB3F96 /* coverFlowView_scrollView_demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = coverFlowView_scrollView_demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B213EB01F2E1F7200EB3F96 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9B213EB21F2E1F7200EB3F96 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9B213EB31F2E1F7200EB3F96 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -45,7 +45,7 @@
 		9B213EA31F2E1F7100EB3F96 = {
 			isa = PBXGroup;
 			children = (
-				9B213EAE1F2E1F7200EB3F96 /* coverFloawView_scrollView_demo */,
+				9B213EAE1F2E1F7200EB3F96 /* coverFlowView_scrollView_demo */,
 				9B213EAD1F2E1F7200EB3F96 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,12 +53,12 @@
 		9B213EAD1F2E1F7200EB3F96 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9B213EAC1F2E1F7200EB3F96 /* coverFloawView_scrollView_demo.app */,
+				9B213EAC1F2E1F7200EB3F96 /* coverFlowView_scrollView_demo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9B213EAE1F2E1F7200EB3F96 /* coverFloawView_scrollView_demo */ = {
+		9B213EAE1F2E1F7200EB3F96 /* coverFlowView_scrollView_demo */ = {
 			isa = PBXGroup;
 			children = (
 				9B213EC91F2E1FE400EB3F96 /* ILERCoverFlowView */,
@@ -72,6 +72,7 @@
 				9B213EC01F2E1F7200EB3F96 /* Info.plist */,
 				9B213EAF1F2E1F7200EB3F96 /* Supporting Files */,
 			);
+			name = coverFlowView_scrollView_demo;
 			path = coverFloawView_scrollView_demo;
 			sourceTree = "<group>";
 		};
@@ -95,9 +96,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9B213EAB1F2E1F7200EB3F96 /* coverFloawView_scrollView_demo */ = {
+		9B213EAB1F2E1F7200EB3F96 /* coverFlowView_scrollView_demo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9B213EC31F2E1F7200EB3F96 /* Build configuration list for PBXNativeTarget "coverFloawView_scrollView_demo" */;
+			buildConfigurationList = 9B213EC31F2E1F7200EB3F96 /* Build configuration list for PBXNativeTarget "coverFlowView_scrollView_demo" */;
 			buildPhases = (
 				9B213EA81F2E1F7200EB3F96 /* Sources */,
 				9B213EA91F2E1F7200EB3F96 /* Frameworks */,
@@ -107,9 +108,9 @@
 			);
 			dependencies = (
 			);
-			name = coverFloawView_scrollView_demo;
+			name = coverFlowView_scrollView_demo;
 			productName = coverFloawView_scrollView_demo;
-			productReference = 9B213EAC1F2E1F7200EB3F96 /* coverFloawView_scrollView_demo.app */;
+			productReference = 9B213EAC1F2E1F7200EB3F96 /* coverFlowView_scrollView_demo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -127,7 +128,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9B213EA71F2E1F7200EB3F96 /* Build configuration list for PBXProject "coverFloawView_scrollView_demo" */;
+			buildConfigurationList = 9B213EA71F2E1F7200EB3F96 /* Build configuration list for PBXProject "coverFlowView_scrollView_demo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -140,7 +141,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9B213EAB1F2E1F7200EB3F96 /* coverFloawView_scrollView_demo */,
+				9B213EAB1F2E1F7200EB3F96 /* coverFlowView_scrollView_demo */,
 			);
 		};
 /* End PBXProject section */
@@ -290,7 +291,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = coverFloawView_scrollView_demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.l.coverFloawView-scrollView-demo";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.l.coverFlowView-scrollView-demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -301,7 +302,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = coverFloawView_scrollView_demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.l.coverFloawView-scrollView-demo";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.l.coverFlowView-scrollView-demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -309,7 +310,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9B213EA71F2E1F7200EB3F96 /* Build configuration list for PBXProject "coverFloawView_scrollView_demo" */ = {
+		9B213EA71F2E1F7200EB3F96 /* Build configuration list for PBXProject "coverFlowView_scrollView_demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9B213EC11F2E1F7200EB3F96 /* Debug */,
@@ -318,7 +319,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9B213EC31F2E1F7200EB3F96 /* Build configuration list for PBXNativeTarget "coverFloawView_scrollView_demo" */ = {
+		9B213EC31F2E1F7200EB3F96 /* Build configuration list for PBXNativeTarget "coverFlowView_scrollView_demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9B213EC41F2E1F7200EB3F96 /* Debug */,
