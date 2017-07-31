@@ -10,4 +10,8 @@ iOS相关的一些小Demo
 ## httpManager_AFN_demo
 - 对AFN进行封装demo
 
+## networkCheck_demo
+- 网络检测工具demo
+http://www.jianshu.com/p/e6bac31ab4aa
+
 
