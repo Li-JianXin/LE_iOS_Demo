@@ -30,6 +30,15 @@ void bubble_sort(int arr[], int length) {
 /**
  快速排序 时间复杂度O(N*logN)
  */
+void quick_sort(int arr[], int left, int right) {
+    if (left < right) {
+        int i = adjustArray(arr, left, right);
+        // 递归
+        quick_sort(arr, left, i - 1);
+        quick_sort(arr, i + 1, right);
+    }
+}
+
 // 挖坑填坑返回基准数位置
 int adjustArray(int arr[], int left, int right) {
     
@@ -63,12 +72,5 @@ int adjustArray(int arr[], int left, int right) {
     return left;
 }
 
-void quick_sort(int arr[], int left, int right) {
-    if (left < right) {
-        int i = adjustArray(arr, left, right);
-        // 递归
-        quick_sort(arr, left, i - 1);
-        quick_sort(arr, i + 1, right);
-    }
-}
+
 
