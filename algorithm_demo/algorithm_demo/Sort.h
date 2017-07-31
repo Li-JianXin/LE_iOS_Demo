@@ -14,4 +14,9 @@
 /** 冒泡排序 */
 void bubble_sort(int arr[], int length);
 
+/** 快速排序 */
+void quick_sort(int arr[], int left, int right);
+// 挖坑填数 返回调整后基数的位置
+int adjustArray(int arr[], int left, int right);
+
 #endif /* Sort_h */

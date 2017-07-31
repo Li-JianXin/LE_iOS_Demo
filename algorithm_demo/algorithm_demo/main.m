@@ -11,13 +11,17 @@
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        int list[10] = {95, 45, 15, 78, 84, 51, 24, 12, 3, 62};
+        int list[10] = {45, 95, 15, 78, 84, 51, 24, 12, 3, 62};
         printf("排序后前\n");
         for (int i = 0; i < 10; i++) {
             printf("%d ", list[i]);
         }
         printf("\n排序后\n");
-        bubble_sort(list, 10);
+        // 冒泡排序
+        // bubble_sort(list, 10);
+        // 快速排序
+        quick_sort(list, 0, 9);
+        
         for (int i = 0; i < 10; i++) {
             printf("%d ", list[i]);
         }
