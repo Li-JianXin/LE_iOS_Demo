@@ -11,6 +11,9 @@
 
 #include <stdio.h>
 
+/** 选择排序 */
+void selection_sort(int arr[], int length);
+
 /** 冒泡排序 */
 void bubble_sort(int arr[], int length);
 

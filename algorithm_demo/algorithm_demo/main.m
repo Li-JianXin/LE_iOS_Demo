@@ -17,10 +17,12 @@ int main(int argc, const char * argv[]) {
             printf("%d ", list[i]);
         }
         printf("\n排序后\n");
+        // 选择排序
+        selection_sort(list, 10);
         // 冒泡排序
         // bubble_sort(list, 10);
         // 快速排序
-        quick_sort(list, 0, 9);
+        // quick_sort(list, 0, 9);
         
         for (int i = 0; i < 10; i++) {
             printf("%d ", list[i]);
