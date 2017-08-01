@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #include "Sort.h"
+#import "NSString+Algorithm.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -28,6 +29,14 @@ int main(int argc, const char * argv[]) {
             printf("%d ", list[i]);
         }
         printf("\n");
+        
+        
+        /**
+         字符串处理
+         */
+        NSString *string1 = @"We are happy";
+        NSString *changeString1 = [string1 replacesBlankWithString:@"%20"];
+        NSLog(@"替换过的字符串：%@",changeString1);
         
     }
     return 0;

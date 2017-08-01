@@ -22,4 +22,7 @@ void quick_sort(int arr[], int left, int right);
 // 挖坑填数 返回调整后基数的位置
 int adjustArray(int arr[], int left, int right);
 
+/** 插入排序 */
+void insert_sort(int arr[], int length);
+
 #endif /* Sort_h */

@@ -97,5 +97,28 @@ int adjustArray(int arr[], int left, int right) {
     return left;
 }
 
+/**
+ 插入排序 O ( n^2 )
+ */
+void insert_sort(int arr[], int length) {
+    for (int i = 1; i < length; i++) {
+        // 顺序不对 进行换位
+        if (arr[i] < arr[i-1]) {
+            int curNum = arr[i];  // 当前
+            int target = i;
+            for (int j = i; j>=0; j--) {
+                int compareNum = arr[j-1];
+                if (curNum < compareNum) {
+                    arr[j] = arr[j-1];
+                    target = j-1;
+                } else {
+                    break;
+                }
+            }
+            arr[target] = curNum;
+        }
+        
+    }
+}
 
 
