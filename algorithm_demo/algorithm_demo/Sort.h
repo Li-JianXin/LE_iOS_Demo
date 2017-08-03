@@ -25,4 +25,9 @@ int adjustArray(int arr[], int left, int right);
 /** 插入排序 */
 void insert_sort(int arr[], int length);
 
+/**
+ 合并排序，将两个已经排序的数组合并成一个数组
+ */
+void mergeArray(int arrA[], int aLength, int arrB[], int bLength);
+
 #endif /* Sort_h */

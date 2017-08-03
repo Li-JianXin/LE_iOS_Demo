@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #include "Sort.h"
 #import "NSString+Algorithm.h"
+#import "Algorithm.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -31,6 +32,26 @@ int main(int argc, const char * argv[]) {
         printf("\n");
         
         
+        // 合并排序
+        int a[]={2,4,6,8,10};
+        int b[]={1,3,5,7,9,11};
+        
+        mergeArray(a, 5, b, 6);
+        printf("数组a\n");
+        for (int i = 0; i < sizeof(a) / sizeof(a[0]); i++) {
+            printf("%d ", a[i]);
+        }
+        printf("\n");
+        
+        NSArray *arrA = @[@2, @4, @6, @8, @10];
+        NSArray *arrB = @[@1, @3, @5, @7, @9, @11];
+        
+        Algorithm *algorithm = [[Algorithm alloc] init];
+        NSArray *newArray = [algorithm mergeArrayA:arrA withArrayB:arrB];
+        
+        
+        
+        
         /**
          字符串处理
          */
@@ -41,5 +62,7 @@ int main(int argc, const char * argv[]) {
     }
     return 0;
 }
+
+
 
 

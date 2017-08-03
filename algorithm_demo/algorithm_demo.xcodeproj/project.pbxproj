@@ -10,6 +10,7 @@
 		9BF2B53F1F2F106D0066B58D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF2B53E1F2F106D0066B58D /* main.m */; };
 		9BF2B54A1F2F15FF0066B58D /* Sort.c in Sources */ = {isa = PBXBuildFile; fileRef = 9BF2B5481F2F15FF0066B58D /* Sort.c */; };
 		9BF2B5521F3015910066B58D /* NSString+Algorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF2B5511F3015910066B58D /* NSString+Algorithm.m */; };
+		9BF2B5571F333FF60066B58D /* Algorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF2B5561F333FF60066B58D /* Algorithm.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		9BF2B5491F2F15FF0066B58D /* Sort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sort.h; sourceTree = "<group>"; };
 		9BF2B5501F3015910066B58D /* NSString+Algorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Algorithm.h"; sourceTree = "<group>"; };
 		9BF2B5511F3015910066B58D /* NSString+Algorithm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Algorithm.m"; sourceTree = "<group>"; };
+		9BF2B5551F333FF60066B58D /* Algorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Algorithm.h; sourceTree = "<group>"; };
+		9BF2B5561F333FF60066B58D /* Algorithm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Algorithm.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,7 @@
 		9BF2B53D1F2F106D0066B58D /* algorithm_demo */ = {
 			isa = PBXGroup;
 			children = (
+				9BF2B5541F333FCA0066B58D /* Algorithm */,
 				9BF2B5531F30176D0066B58D /* Linked List */,
 				9BF2B54C1F3012390066B58D /* String */,
 				9BF2B54B1F2F17500066B58D /* Sort */,
@@ -94,6 +98,15 @@
 			children = (
 			);
 			name = "Linked List";
+			sourceTree = "<group>";
+		};
+		9BF2B5541F333FCA0066B58D /* Algorithm */ = {
+			isa = PBXGroup;
+			children = (
+				9BF2B5551F333FF60066B58D /* Algorithm.h */,
+				9BF2B5561F333FF60066B58D /* Algorithm.m */,
+			);
+			name = Algorithm;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BF2B5521F3015910066B58D /* NSString+Algorithm.m in Sources */,
+				9BF2B5571F333FF60066B58D /* Algorithm.m in Sources */,
 				9BF2B53F1F2F106D0066B58D /* main.m in Sources */,
 				9BF2B54A1F2F15FF0066B58D /* Sort.c in Sources */,
 			);
@@ -284,6 +298,7 @@
 				9BF2B5441F2F106D0066B58D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
