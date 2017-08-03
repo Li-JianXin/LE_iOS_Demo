@@ -17,4 +17,6 @@ http://www.jianshu.com/p/e6bac31ab4aa
 ## category_demo
 - 分类
 
+## algorithm_demo
+- 一些常见的算法 排序、字符串的修改等
 
