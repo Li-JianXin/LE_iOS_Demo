@@ -122,28 +122,6 @@ void insert_sort(int arr[], int length) {
     }
 }
 
-/**
- 合并排序，将两个已经排序的数组合并成一个数组
- 给定两个已经排序的数组A和B，A有足够大的空间去容纳B。
- 从数组A和B的尾部遍历比较元素，大的放在数组A的后面。最后如果B中还有元素，将其加入A中。
- 注意：不必在B中的元素遍历完后再次遍历A中的元素，因为他们已经在A中了。
- */
-void mergeArray(int arrA[], int aLength, int arrB[], int bLength) {
-    int length = aLength + bLength - 1;  // A+B数组总长度
-    aLength--;
-    bLength--;
-    while (aLength >= 0 && bLength >= 0) {
-        if (arrA[aLength] > arrB[bLength]) {
-            arrA[length--] = arrA[aLength--];
-        } else {
-            arrA[length--] = arrB[bLength--];
-        }
-    }
-    // 如果B中还有元素，将其加入A中
-    while (bLength >= 0) {
-        arrA[length--] = arrB[bLength--];
-    }
-}
 
 
 
